@@ -1,0 +1,13 @@
+
+
+Acceptance criteria are crucial for ensuring that everyone has a clear
+ understanding of what success looks like for a particular task
+or project
+
+Feature: Login Functionality
+
+  Scenario: User can correct their inputs and attempt to login again
+    When the user enters incorrect credentials "abcndf" "tuiuyrgjf"
+    And after the error message is displayed "jfgyr" "fhyuiyui"
+    Then the user re-enters the username "Admin" and password "Hum@nhrm123"
+    Then user clicks login and is logged in
